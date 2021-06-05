@@ -1,3 +1,24 @@
+html {
+    scroll-behavior:smooth;
+  }
+.navbar-text{
+    padding: 0px 50px;
+}
+#content_1{
+    padding: 20px;
+    margin: 30px;
+}
+#content_2{
+    padding: 20px;
+    margin: 30px;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:x-large;
+    color:whitesmoke;
+}
 body{
-    background-color: rgb(216, 216, 216);
+    background-image: url("wallpaper.jpg");
+    background-size:cover;
+    
 }
