@@ -5,34 +5,274 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <!-- Font Awesome -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+        ></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
         <title>
         sborkapcuz   
         </title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="opacity: 0.8;">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Sborkapc.uz</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">О нас</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#">Контакты</a>
                   </li>
                 </ul>
+                <span class="navbar-text">
+                  Соберём компьютер вместе
+                </span>
               </div>
             </div>
           </nav>
+          <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="main.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="main1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="main2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-mdb-target="#carouselExampleControls"
+              data-mdb-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-mdb-target="#carouselExampleControls"
+              data-mdb-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="row" id="content_1">
+            <div class="col-4">
+                <img class="img-fluid rounded hover-shadow" src="content.jpg" alt='sborkapcuz' >
+            </div>
+            <div class="col-7" id="text">
+            <p>Подбираю комплектующие под ваш бюджет, чтобы собрать максимально производительный ПК в данном ценовом сегменте</p>
+
+            <p>Сравниваю цены во всех магазинах, торговых площадках и нахожу максимально дешёвые комплектующие</p>
+            
+            <p>Покупаю комплектующие вместе с вами </p>
+            
+            <p>Собираю компьютер</p>
+            
+            <p>Устанавливаю Windows и весь необходимый софт (при желании любую игру)</p>
+            
+            <p>И всё это всего за 10$</p>
+            <hr>
+            </div>
+          </div>
+          <div class="row" id="content_2">
+              
+                <div class="col-8" id="text">
+                    <p>Собираю компьютер для геймеров которые хотят поиграть в современные игры но бюджет не позволяет новое компьютерное железо</p>
+
+                    <p>Бытует мнение что производительный ПК(компьютер) это дорогой компьютер, но я вас уверяю это не так производительный ПК можно собрать и с маленьким бюджетом просто нужно иметь определенные знания о компьютерном железе и где это железо купить по доступной цене.</p>
+        
+                    <p>Вот тут то я и вам помогу я сам подберу под ваш бюджет компьютер и найду компьютерное железо по доступной цене</p>
+                    <p>всё это будет за 10$, для чего я это делаю?</p> 
+        
+                    <p>Во-первых это моё хобби.</p>
+                    <p>Во-вторых весь этот процесс будет отснят для контента на YouTube.</p>
+                    <hr>
+                </div>
+                <div class="col-4">
+                    <video class="img-fluid rounded hover-shadow" controls="controls" loop id="video">
+                        <source src="video_content.mp4" type="video/mp4">
+                       </video>
+                </div>
+            </div>  
+            <div class="container my-5">
+                <!-- Footer -->
+                <footer
+                        class="text-center text-lg-start text-white"
+                        style="background-color: #242424; opacity: 0.8"
+                        >
+                  <!-- Grid container -->
+                  <div class="container p-4 pb-0">
+                    <!-- Section: Links -->
+                    <section class="">
+                      <!--Grid row-->
+                      <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">
+                            sborkapcuz
+                          </h6>
+                          <p>
+                            Народный сборщик ПК:
+                            Собираю производительный ПК для любого бюджета 🖥
+                            
+                            Не продаю готовую сборку, собираю компьютер вместе с вами 🤝
+                            
+                            Делаю из этого контент на YouTube 🎥
+                            
+                          </p>
+                        </div>
+                        <!-- Grid column -->
+              
+                        <hr class="w-100 clearfix d-md-none" />
+              
+                       
+              
+                        <hr class="w-100 clearfix d-md-none" />
+              
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+              
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">Контакты</h6>
+                          <p><i class="fas fa-home mr-3"></i> t.me/JavakhirYu</p>
+                          <p><i class="fas fa-envelope mr-3"></i> javakhiryulchibaev7@gmail.com</p>
+                          <p><i class="fas fa-phone mr-3"></i> + 998 90 351 40 76</p>
+                          <p><i class="fas fa-print mr-3"></i> + 998 94 504 40 76</p>
+                        </div>
+                        <!-- Grid column -->
+              
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold">Следите за нами</h6>
+              
+                          <!-- Facebook -->
+                          <a
+                             class="btn btn-primary btn-floating m-1"
+                             style="background-color: #3b5998"
+                             href="#!"
+                             role="button"
+                             ><i class="fab fa-facebook-f"></i
+                            ></a>
+              
+                          <!-- Twitter -->
+                          <a
+                             class="btn btn-primary btn-floating m-1"
+                             style="background-color: #55acee"
+                             href="#!"
+                             role="button"
+                             ><i class="fab fa-twitter"></i
+                            ></a>
+              
+                          <!-- Google -->
+                          <a
+                             class="btn btn-primary btn-floating m-1"
+                             style="background-color: #dd4b39"
+                             href="#!"
+                             role="button"
+                             ><i class="fab fa-google"></i
+                            ></a>
+              
+                          <!-- Instagram -->
+                          <a
+                             class="btn btn-primary btn-floating m-1"
+                             style="background-color: #ac2bac"
+                             href="#!"
+                             role="button"
+                             ><i class="fab fa-instagram"></i
+                            ></a>
+              
+                          <!-- Linkedin -->
+                          <a
+                             class="btn btn-primary btn-floating m-1"
+                             style="background-color: #0082ca"
+                             href="#!"
+                             role="button"
+                             ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                          <!-- Github -->
+                          <a
+                             class="btn btn-primary btn-floating m-1"
+                             style="background-color: #333333"
+                             href="#!"
+                             role="button"
+                             ><i class="fab fa-github"></i
+                            ></a>
+                        </div>
+                      </div>
+                      <!--Grid row-->
+                    </section>
+                    <!-- Section: Links -->
+                  </div>
+                  <!-- Grid container -->
+              
+                  <!-- Copyright -->
+                  <div
+                       class="text-center p-3"
+                       style="background-color: rgba(0, 0, 0, 0.2)"
+                       >
+                    © 2021 Copyright:
+                    <a class="text-white" href=""
+                       >Sborkapcuz</a
+                      >
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+              </div>
+              <!-- End of .container -->
+              <!-- End of .container -->
     </body>
-</html>
+    </html>
